@@ -1,0 +1,16 @@
+app:
+  name: my-quarkus-app9
+  namespace: my-quarkus-app9-dev
+  cluster: .apps.cluster-pzz4f.pzz4f.sandbox1805.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/assemble-dev-org/my-quarkus-app9
+  org: assemble-dev-org
+  name: my-quarkus-app9
+
+image:
+  registry: Openshift
+  host: image-registry.openshift-image-registry.svc:5000
+  organization: 
+  name: my-quarkus-app9
